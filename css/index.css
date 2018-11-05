@@ -9,7 +9,7 @@ img {
 body{
 	background-color: #f1f1f1;
 }
-ul{
+ul,ol{
 	padding: 0;
 	margin: 0;
 }
@@ -351,7 +351,7 @@ footer{
 }
 .album-dormitory{
 	margin-top: 2%;
-	padding: 0 15px;
+	/*padding: 0 15px;*/
 }
 #album-container h5{
 	width: 100%;
@@ -369,6 +369,18 @@ footer{
 #carousel-example-generic img{
 	width: 100%;
 }
+.carousel-indicators{
+	bottom: 0;
+}
+.carousel-indicators li{
+	width: 6px;
+	height: 6px;
+}
+.carousel-indicators .active{
+	width: 8px;
+	height: 8px;
+}
+
 .album-travel{
 	margin-top: 2%;
 }
@@ -449,7 +461,7 @@ footer{
 	.navbar-brand{
 		padding: 10px 0 10px 13px;
 	}
-	#swiper1{
+	.index-content #swiper1{
 		margin-top: 0;
 	}
 	.knowledge{
@@ -485,6 +497,9 @@ footer{
 	/*青春相册页样式*/
 	.album-top li:first-child,.album-top li:last-child{
 		display: none;
+	}
+	#album-container h5{
+		font-size: 15px;
 	}
 	/*青春相册页样式*/
 

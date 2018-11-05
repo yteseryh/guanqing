@@ -1,0 +1,488 @@
+/*默认样式区*/
+li {
+	list-style:none;
+}
+img {
+	border:none;
+	vertical-align:top;
+}
+body{
+	background-color: #f1f1f1;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+input,textarea {
+	outline:none;
+}
+/*默认样式区*/
+
+
+
+/*首页样式区*/
+/*导航条*/
+.navbar-default .navbar-brand{
+	font-size: 22px;
+}
+.dropdown-menu{
+	min-width: 100%;
+}
+.dropdown-menu>li>a{
+	text-align: center;
+	padding: 5px 0;
+}
+.navbar-default .navbar-nav>li>a{
+	text-align: center;
+}
+.navbar{
+	background-color: #fff;
+}
+.navbar-brand{
+	padding: 5px 0 5px 13px;
+}
+.mylogo{
+	height: 100%;
+}
+
+/*中间内容区*/
+.index-content{
+	margin-top: 70px;
+}
+article h5{
+	text-indent: 1em;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+/*个人作品区*/
+.works{
+	background-color: #fff;
+	margin: 20px 0;
+	border-radius: 10px;
+	padding: 0 20px 10px 20px;
+}
+.work-content{
+	width: 100%;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #ccc;
+}
+.work-title{
+	font-size: 18px;
+	color: cadetblue;
+	font-weight: bold;
+}
+.knowledge{
+	margin: 10px 0;
+	font-size: 16px;
+}
+.work-link{
+	font-size: 16px;
+	color: red;
+}
+.work-img{
+	width: 100%;
+}
+.work-img img{
+	width: 32%;
+}
+
+/*精彩教程区*/
+#course{
+	background: #FFFFFF;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+#course ul{
+	padding: 0 2%;
+}
+#course li{
+	border-bottom: 2px solid #cccccc;
+}
+#course .bordernone{
+	border:none;
+}
+#course li h3{
+	line-height: 54px;
+}
+#course li h3 a{
+	font-size: 18px;
+	color: cadetblue;
+}
+#course li .content{
+	display: flex;
+	align-items: center;
+}
+#course .content .img{
+	width:20%;
+	margin-right: 2%;
+}
+#course .content img{
+	width:100%;
+}
+#course .content p{
+	text-indent: 2em;
+	width:77%;
+	font-size: 16px;
+}
+#course li span{
+	display: inline-block;
+	font-size: 14px;
+	margin:1% 0 1% 2%;
+}
+#course span img{
+	width:18%;
+	margin-right: 4px;
+}
+#course li strong{
+	float: right;
+	font-size: 18px;
+}
+#course li strong a{
+	color: #009966;
+}
+
+/*女神区*/
+.movelist{
+	margin-top: 20px;
+	background: #FFFFFF;
+	border-radius: 14px;
+}
+.movelist ul{
+	margin-top: 20px;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+.movelist li{
+	width:100%;
+	height: 200px;
+	margin-bottom: 20px;
+}
+.movelist li:hover{
+	box-shadow: 0 0 10px 3px darkgray;
+}
+.movelist li img{
+	width: 100%;
+	height:200px;
+	cursor: pointer;
+}
+
+
+/*右侧侧边栏*/
+/*二维码选项卡*/
+.sidebar-tab{
+	background-color: #fff;
+}
+.nav-tabs>li>a{
+	margin-right: 0;
+	border-radius: 0;
+}
+.nav-tabs{
+	border-top: 1px solid #000;
+	border-bottom: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: none;
+	background-color: #fff;
+	color: #222;
+}
+.nav-tabs>li>a{
+	border: none;
+}
+.nav-tabs>li>a:hover{
+	border: none;
+	background-color: gray;
+}
+.tab-content img{
+	width: 100%;
+}
+.sidebar-tab ul li{
+	width: 33.333%;
+}
+.sidebar-tab ul li a{
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #000;
+}
+
+/*搜索区*/
+.search{
+	padding: 20px 0;
+	background: #FFFFFF;
+	margin:40px 0;
+	border-radius: 6px;
+	text-align: center;
+}
+.search .text{
+	height:25px;
+	background: #f2f2f2;
+}
+.search .submit{
+	width:50px;
+	height:28px;
+	margin-left: -3px;
+	background: #000000;
+	border:none;
+	border-radius: 0 8px 8px 0;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+
+/*实用网站*/
+.practicalweb{
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+.practicalweb li{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.practicalweb li:hover{
+	background-color: #337AB7;
+}
+.practicalweb a{
+	color: black;
+	font-size: 18px;
+}
+.practicalweb a:hover{
+	text-decoration: none;
+}
+
+/*关于我*/
+.aboutme{
+	background: #FFFFFF;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px 0;
+	position: relative;
+	top: 0;
+	transition: all ease 1s;
+}
+#sidebar h2{
+	width:100%;
+	line-height: 60px;
+	font-size: 22px;
+	text-align: center;
+	position: relative;
+}
+#sidebar h2:before{
+	content: "";
+	height:2px;
+	width:25%;
+	background: #000000;
+	position: absolute;
+	left:5px;
+	top:30px;
+}
+#sidebar h2:after{
+	content: "";
+	height:2px;
+	width:25%;
+	background: #000000;
+	position: absolute;
+	right:5px;
+	top:30px;
+}
+.aboutme .logo{
+	width: 100px;
+	margin:0 auto 40px;
+}
+.logo img{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.aboutme span{
+	display: block;
+	border-radius: 5px;
+	margin:0 10px 10px 10px;
+	background: #f6f6f6;
+	font-size: 16px;
+	line-height: 30px;
+	text-indent: 1em;
+}
+.backtop{
+	width: 20%;
+	cursor: pointer;
+	position: relative;
+	left: 40%;
+	top: 100px;
+	transition: top ease 0.5s;
+}
+footer{
+	margin-top: 2%;
+	text-align: center;
+}
+/*首页样式区END*/
+
+
+
+/*青春相册页面样式*/
+/*顶部三张图*/
+.album-top{
+	margin-top: 80px;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.album-top li{
+	overflow: hidden;
+	border-radius: 12px;
+	margin-bottom: 10px;
+}
+.album-top img{
+	border-radius: 12px;
+	width: 100%;
+	height: 130px;
+	transition: all 1s ease; 
+}
+.album-top img:hover{
+	transform: scale(1.1);
+}
+
+/*大轮播图*/
+#album-container{
+	padding: 0 5%;
+}
+.album-dormitory{
+	margin-top: 2%;
+	padding: 0 15px;
+}
+#album-container h5{
+	width: 100%;
+	margin: 0 auto;
+	text-indent: 1em;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+#carousel-example-generic{
+	background-color: #f1f1f1;
+	margin-top: 20px;
+}
+#carousel-example-generic img{
+	width: 100%;
+}
+.album-travel{
+	margin-top: 2%;
+}
+#swiper1,#swiper2,#swiper3,#swiper4{
+	margin-top: 20px;
+}
+#swiper1 img,#swiper2 img,#swiper3 img,#swiper4 img{
+	cursor: pointer;
+}
+
+
+
+/*工作日志页面样式*/
+#work-container{
+	margin-top: 80px;
+}
+#work-container h5{
+	width: 100%;
+	margin: 0 auto;
+	text-indent: 1em;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+.work-item{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	text-indent: 4px;
+}
+.work-item strong{
+	display: block;
+}
+
+
+/*插件库页面样式*/
+#ware-container{
+	margin-top: 80px;
+}
+#ware-container h5{
+	width: 100%;
+	margin: 0 auto;
+	text-indent: 1em;
+	line-height: 40px;
+	font-size: 18px;
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+.ware-item{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	text-indent: 4px;
+}
+.ware-item-title{
+	display: block;
+	color: #000;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.ware-item span{
+	color: red;
+}
+
+
+
+
+
+@media only screen and (max-width:750px) {
+	/*首页样式*/
+	.nav li:first-child{
+		text-indent: 10px;
+	}
+	.navbar-brand{
+		padding: 10px 0 10px 13px;
+	}
+	#swiper1{
+		margin-top: 0;
+	}
+	.knowledge{
+		font-size: 14px;
+	}
+	.work-link{
+		font-size: 12px;
+	}
+	#course .content p{
+		font-size: 13px;
+	}
+	#course li strong{
+		font-size: 15px;
+	}
+	#course li span{
+		font-size: 12px;
+	}
+	.movelist li{
+		height: 150px;
+	}
+	.movelist li img{
+		height: 150px;
+	}
+	.backtop{
+		display: none;
+	}
+	/*首页样式*/
+
+
+	/*青春相册页样式*/
+	.album-top li:first-child,.album-top li:last-child{
+		display: none;
+	}
+	/*青春相册页样式*/
+
+}

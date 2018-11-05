@@ -1,0 +1,36 @@
+关于字体文件的解释：
+
+而由于网页中使用的字体类型，也是各浏览器对字体类型有不同的支持规格。 字体格式类型主要有几个大
+分类：TrueType、Embedded Open Type 、OpenType、WOFF 、SVG。
+
+
+TrueType
+Windows和Mac系统最常用的字体格式，其最大的特点就是它是由一种数学模式来进行定义的基于轮廓技术的
+字体，这使得它们比基于矢量的字体更容易处理，保证了屏幕与打印输出的一致性。同时，这类字体和矢量
+字体一样可以随意缩放、旋转而不必担心会出现锯齿。
+
+
+
+EOT – Embedded Open Type (.eot)
+EOT是嵌入式字体，是微软开发的技术。允许OpenType字体用@font-face嵌入到网页并下载至浏览器渲染，
+存储在临时安装文件夹下。
+
+
+
+OpenType (.otf)
+OpenType是微软和Adobe共同开发的字体，微软的IE浏览器全部采用这种字体。致力于替代TrueType字体。
+
+
+
+WOFF – Web Open Font Format (.woff)
+WOFF（Web开发字体格式）是一种专门为了Web而设计的字体格式标准，实际上是对于TrueType/OpenType等
+字体格式的封装，每个字体文件中含有字体以及针对字体的元数据（Metadata），字体文件被压缩，以便于
+网络传输。
+
+
+
+SVG (Scalable Vector Graphics) Fonts (.svg)
+SVG是由W3C制定的开放标准的图形格式。SVG字体就是使用SVG技术来呈现字体，还有一种gzip压缩格式的
+SVG字体。使用方法：使用CSS3的@font-face属性可以实现在网页中嵌入任意字体。 但是IE只支持微软自有
+的EOT格式字体，需要用字体转换工具将其转换为EOT格式，其他浏览器都不支持这一字体格式，其它浏览器
+可以设置TTF(TrueType)和OTF(OpenType)两种字体作为自定义字体。

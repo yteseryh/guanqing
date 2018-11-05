@@ -476,6 +476,9 @@ footer{
 	.backtop{
 		display: none;
 	}
+	.aboutme span{
+		text-align: center;
+	}
 	/*首页样式*/
 
 

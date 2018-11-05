@@ -491,6 +491,9 @@ footer{
 	.aboutme span{
 		text-align: center;
 	}
+	.backtop{
+		display: none;
+	}
 	/*首页样式*/
 
 

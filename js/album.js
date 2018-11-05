@@ -18,7 +18,7 @@ $(function(){
 			autoplay: true,
 		    disableOnInteraction: false,
 		  },
-		slidesPerView : 3,
+		slidesPerView : 2,
 		mousewheel: true,
 		spaceBetween:15
 	})
@@ -42,7 +42,7 @@ $(function(){
 			autoplay: true,
 		    disableOnInteraction: false,
 		  },
-		slidesPerView : 3,
+		slidesPerView : 2,
 		mousewheel: true,
 		spaceBetween:15
 	})
@@ -78,4 +78,5 @@ $(function(){
 	$('#swiper2').viewer();
 	$('#swiper3').viewer();
 	$('#swiper4').viewer();
+	$('.album-dormitory').viewer();
 })
